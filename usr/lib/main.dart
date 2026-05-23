@@ -55,9 +55,9 @@ class PerovskiteHomePage extends StatelessWidget {
                 children: [
                   _buildHeaderCard(context),
                   const SizedBox(height: 24),
-                  _buildSectionTitle(context, 'Qu\\'est-ce que la Pérovskite ?'),
+                  _buildSectionTitle(context, "Qu'est-ce que la Pérovskite ?"),
                   _buildParagraph(
-                    'La pérovskite désigne initialement un minéral (le titanate de calcium, CaTiO3) découvert dans l\\'Oural en 1839 par Gustav Rose et nommé en l\\'honneur du minéralogiste russe Lev Perovski. Par extension, le terme "pérovskite" désigne toute classe de matériaux partageant la même structure cristalline (ABX3).',
+                    "La pérovskite désigne initialement un minéral (le titanate de calcium, CaTiO3) découvert dans l'Oural en 1839 par Gustav Rose et nommé en l'honneur du minéralogiste russe Lev Perovski. Par extension, le terme \"pérovskite\" désigne toute classe de matériaux partageant la même structure cristalline (ABX3).",
                   ),
                   const SizedBox(height: 24),
                   _buildSectionTitle(context, 'Applications Principales'),
@@ -66,7 +66,7 @@ class PerovskiteHomePage extends StatelessWidget {
                     icon: Icons.solar_power,
                     title: 'Énergie Solaire',
                     description:
-                        'Les cellules solaires à pérovskite sont considérées comme la plus grande percée technologique récente dans le domaine du photovoltaïque. Leur rendement de conversion énergétique a progressé de manière fulgurante (passant de ~3% en 2009 à plus de 26% aujourd\\'hui), rivalisant avec le silicium.',
+                        "Les cellules solaires à pérovskite sont considérées comme la plus grande percée technologique récente dans le domaine du photovoltaïque. Leur rendement de conversion énergétique a progressé de manière fulgurante (passant de ~3% en 2009 à plus de 26% aujourd'hui), rivalisant avec le silicium.",
                   ),
                   const SizedBox(height: 12),
                   _buildFeatureCard(
@@ -74,7 +74,7 @@ class PerovskiteHomePage extends StatelessWidget {
                     icon: Icons.lightbulb_outline,
                     title: 'LEDs et Affichages',
                     description:
-                        'Grâce à leurs excellentes propriétés optiques et à la possibilité de régler facilement leur couleur d\\'émission (bandgap accordable), les pérovskites sont très prometteuses pour la prochaine génération d\\'écrans et d\\'éclairages LED.',
+                        "Grâce à leurs excellentes propriétés optiques et à la possibilité de régler facilement leur couleur d'émission (bandgap accordable), les pérovskites sont très prometteuses pour la prochaine génération d'écrans et d'éclairages LED.",
                   ),
                   const SizedBox(height: 12),
                   _buildFeatureCard(
@@ -89,14 +89,14 @@ class PerovskiteHomePage extends StatelessWidget {
                   _buildList([
                     'Fabrication à bas coût : Contrairement au silicium qui nécessite des températures extrêmement élevées, les pérovskites peuvent être traitées en solution à basse température.',
                     'Flexibilité et légèreté : Elles peuvent être imprimées sur des substrats flexibles (plastique, feuilles métalliques), ouvrant la voie à des panneaux solaires portables ou intégrés aux bâtiments.',
-                    'Haut rendement : Leur capacité d\\'absorption lumineuse est exceptionnelle.',
+                    "Haut rendement : Leur capacité d'absorption lumineuse est exceptionnelle.",
                   ]),
                   const SizedBox(height: 24),
                   _buildSectionTitle(context, 'Défis Actuels'),
                   _buildList([
-                    'Stabilité : Les cellules à pérovskite se dégradent rapidement face à l\\'humidité, la chaleur et la lumière intense. L\\'amélioration de leur durée de vie est le principal défi actuel.',
+                    "Stabilité : Les cellules à pérovskite se dégradent rapidement face à l'humidité, la chaleur et la lumière intense. L'amélioration de leur durée de vie est le principal défi actuel.",
                     'Toxicité : Les pérovskites les plus performantes contiennent actuellement du plomb, ce qui soulève des préoccupations environnementales et de recyclage.',
-                    'Mise à l\\'échelle : Passer de petites cellules en laboratoire à de grands modules commerciaux sans perte significative de rendement reste complexe.',
+                    "Mise à l'échelle : Passer de petites cellules en laboratoire à de grands modules commerciaux sans perte significative de rendement reste complexe.",
                   ]),
                   const SizedBox(height: 40),
                 ],
